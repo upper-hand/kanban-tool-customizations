@@ -8,7 +8,8 @@
   };
   for(var key in swimlaneIdToBgColorValue) {
     var color = swimlaneIdToBgColorValue[key];
-    $('.task_list.swimlane_' + key).closest('td').css({backgroundColor: color});
-    $('#swimlane_' + key + '_th').css({background: "linear-gradient(to bottom, " + color + " 0%, " + color + " 100%)"});
+    var $row = $('tr[data-swimlane-id="501026"] th')
+    $row.find('td').css({backgroundColor: color});
+    $row.find('th').css({background: "linear-gradient(to bottom, " + color + " 0%, " + color + " 100%)"});
   }
 }).call(this);
