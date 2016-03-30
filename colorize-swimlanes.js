@@ -8,7 +8,7 @@
   };
   for(var key in swimlaneIdToBgColorValue) {
     var color = swimlaneIdToBgColorValue[key];
-    var $row = $('tr[data-swimlane-id="501026"]');
+    var $row = $('tr[data-swimlane-id="' + key + '"]');
     $row.find('td').css({backgroundColor: color});
     $row.find('th').css({background: "linear-gradient(to bottom, " + color + " 0%, " + color + " 100%)"});
   }
