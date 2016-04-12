@@ -2,5 +2,5 @@
 kt-tasklist{min-height:77px !important;}
 
 /* for swimlane scrolling */
-css:kt-tasklist{max-height:160px !important; overflow:scroll;}
+kt-tasklist{max-height:160px !important; overflow:scroll;}
 
