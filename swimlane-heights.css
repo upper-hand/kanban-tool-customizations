@@ -4,11 +4,3 @@ kt-tasklist{min-height:77px !important;}
 /* for swimlane scrolling */
 kt-tasklist{max-height:160px !important; overflow:scroll;}
 
-/* styling code blocks */
-.kt-taskview-content pre {
-  background-color: #333 !important;
-  color: #fff !important;
-  font-weight: normal !important;
-  padding: 7px !important;
-}
-

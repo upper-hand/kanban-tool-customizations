@@ -1,0 +1,8 @@
+/* styling code blocks */
+.kt-taskview-content pre {
+  background-color: #333 !important;
+  color: #fff !important;
+  font-weight: normal !important;
+  padding: 7px !important;
+}
+
